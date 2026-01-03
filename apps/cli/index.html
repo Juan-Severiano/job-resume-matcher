@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Georgia', 'Times New Roman', serif;
+        font-size: 11pt;
+        line-height: 1.4;
+        color: #1a1a1a;
+        background: white;
+        max-width: 210mm;
+        margin: 0 auto;
+        padding: 15mm 20mm;
+      }
+      
+      @media print {
+        body {
+          padding: 10mm 15mm;
+        }
+        @page {
+          size: A4;
+          margin: 10mm;
+        }
+      }
+      
+      header {
+        text-align: center;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #333;
+        padding-bottom: 15px;
+      }
+      
+      h1 {
+        font-size: 28pt;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+      }
+      
+      .subtitle {
+        font-size: 12pt;
+        font-style: italic;
+        color: #333;
+        margin-bottom: 8px;
+      }
+      
+      .contact-info {
+        font-size: 9pt;
+        color: #444;
+      }
+      
+      .contact-info a {
+        color: #444;
+        text-decoration: none;
+      }
+      
+      .contact-info span {
+        margin: 0 8px;
+      }
+      
+      section {
+        margin-bottom: 18px;
+      }
+      
+      h2 {
+        font-size: 11pt;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        border-bottom: 1px solid #333;
+        padding-bottom: 3px;
+        margin-bottom: 10px;
+      }
+      
+      .summary {
+        text-align: justify;
+        font-size: 10.5pt;
+      }
+      
+      .summary strong {
+        font-weight: bold;
+      }
+      
+      .skills-category {
+        margin-bottom: 6px;
+      }
+      
+      .skills-category strong {
+        font-weight: bold;
+      }
+      
+      .job {
+        margin-bottom: 15px;
+      }
+      
+      .job-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 3px;
+      }
+      
+      .job-company {
+        font-weight: bold;
+        font-size: 11pt;
+      }
+      
+      .job-date {
+        font-style: italic;
+        font-size: 10pt;
+        color: #333;
+      }
+      
+      .job-position {
+        font-style: italic;
+        margin-bottom: 6px;
+        font-size: 10.5pt;
+      }
+      
+      ul {
+        margin-left: 18px;
+      }
+      
+      li {
+        margin-bottom: 5px;
+        text-align: justify;
+        font-size: 10.5pt;
+      }
+      
+      li strong {
+        font-weight: bold;
+      }
+      
+      .education-item {
+        margin-bottom: 8px;
+      }
+      
+      .education-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+      }
+      
+      .education-degree {
+        font-weight: bold;
+      }
+      
+      .education-date {
+        font-style: italic;
+        font-size: 10pt;
+      }
+      
+      .education-school {
+        font-style: italic;
+        color: #333;
+      }
+      
+      .project-item {
+        margin-bottom: 15px;
+      }
+      
+      .project-name {
+        font-weight: bold;
+        font-size: 11pt;
+        margin-bottom: 6px;
+      }
+      
+      .project-description {
+        font-size: 10.5pt;
+        margin-bottom: 6px;
+      }
+      
+      .project-technologies {
+        font-size: 10pt;
+        color: #333;
+        margin-bottom: 6px;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>Resume</h1>
+    
+    
+  </header>
+    <section>
+    <h2>Resumo Profissional</h2>
+    <p class="summary"><strong>Engenheiro de Software Full Stack</strong> com mais de 4 anos de experiência em arquitetura de sistemas escaláveis, especializado em <strong>iOS (Swift, SwiftUI, UIKit)</strong>, <strong>React Native</strong>, <strong>React</strong>, <strong>Next.js</strong>, <strong>Node.js</strong> e <strong>TypeScript</strong>. Formado pela <strong>Apple Developer Academy</strong> com 2 anos de treinamento intensivo em desenvolvimento iOS e metodologias ágeis.</p><br><br><p class="summary"><strong>Destaque:</strong> Tech Lead vencedor do Hackathon M. Dias Branco, responsável por arquitetura end-to-end e infraestrutura na Codify. Expertise comprovada em migração de monolitos para <strong>arquitetura de microsserviços</strong> com <strong>RabbitMQ/Kafka</strong>, resultando em melhor performance e escalabilidade em aplicações com milhares de usuários diários. Experiência sólida em <strong>desenvolvimento nativo</strong> (Swift, Kotlin), <strong>módulos nativos customizados</strong> (bridges), <strong>Live Activities</strong>, <strong>push notifications</strong> e publicação contínua nas <strong>App Store</strong> e <strong>Google Play</strong>.</p><br><br><p class="summary">Proficiente em <strong>Clean Architecture</strong>, <strong>SOLID</strong>, <strong>DDD</strong>, <strong>TDD</strong> e <strong>BDD</strong>. Domínio de <strong>CI/CD</strong>, <strong>Docker</strong>, <strong>Fastlane</strong>, <strong>Firebase</strong>, <strong>Google Analytics</strong> e ferramentas de monitoring (<strong>Sentry</strong>). Trabalho com <strong>autonomia e responsabilidade</strong>, tomando decisões técnicas estratégicas e liderando times sob pressão.</p>
+  </section>
+    <section>
+    <h2>Habilidades Técnicas</h2>
+    <div class="skills-category">SwiftUI</div>
+  </section>
+    <section>
+    <h2>Experiência Profissional</h2>
+    <div class="job">
+    <div class="job-header">
+      <div class="job-company">software.</div>
+      <div class="job-date"></div>
+    </div>
+    <div class="job-position">RaspberryPi usando Expo, criando módulos nativos em **Kotlin/Swift** para comunicação hardware</div>
+    <ul>
+      <li>Desenvolvi uma plataforma de gerenciamento de campanhas eleitorais para o projeto SysEleições.</li>
+    </ul>
+  </div>
+  </section>
+    <section>
+    <h2>Portfólio de Apps Publicados & Projetos Notáveis</h2>
+    <div class="project-item">
+    <div class="project-name">JaPediu Delivery (iOS &amp; Android)</div>
+    
+    
+    <ul>
+      <li>Developed a delivery app featuring real-time tracking, Live Activities, push notifications, and payment integration.</li><li>Realização de lançamentos quinzenais contínuos e manutenção proativa do sistema.</li><li>Lançado aplicativos na App Store e Google Play.</li><li>Utilized Swift, SwiftUI, and Kotlin to develop mobile applications, implementing clean code principles and integrating Firebase and Sentry for enhanced functionality and performance.</li>
+    </ul>
+  </div>
+        <div class="project-item">
+    <div class="project-name">JaPediu para Parceiros (iOS &amp; Android)</div>
+    
+    
+    <ul>
+      <li>Desenvolvimento de sistema administrativo para parceiros utilizando práticas de código limpo e testes automatizados.</li><li>Lançado aplicativos na App Store e Google Play.</li><li><strong>Tech:</strong> Swift, SwiftUI, CocoaPods, Swift Package Manager, Kotlin Multiplatform, código limpo, testes automatizados, desenvolvimento Mobile em geral</li>
+    </ul>
+  </div>
+        <div class="project-item">
+    <div class="project-name">SysEleições (iOS &amp; Android)</div>
+    
+    
+    <ul>
+      <li>Desenvolvimento de plataforma de gestão de campanhas para equipes eleitorais utilizando Swift e práticas de código limpo.</li><li>Desenvolvimento de funcionalidade offline-first com implementação de sincronização inteligente.</li><li>Lançado aplicativos na App Store e Google Play.</li><li><strong>Tech:</strong> Swift, SwiftUI, CocoaPods, Swift Package Manager, Kotlin Multiplatform, focusing on clean code and automated testing for mobile development.</li>
+    </ul>
+  </div>
+        <div class="project-item">
+    <div class="project-name">BitDogLab REPL (Parceria Unicamp)</div>
+    
+    
+    <ul>
+      <li>Developed a mobile IDE for Raspberry Pi with seamless hardware-software communication.</li><li>Desenvolvimento de módulos nativos personalizados utilizando Kotlin e Swift.</li><li>Utilized Swift and Kotlin to develop mobile applications, implementing Native Modules and integrating AI SDK for enhanced functionality.</li>
+    </ul>
+  </div>
+        <div class="project-item">
+    <div class="project-name">Projeto Cetra (Offline-First)</div>
+    
+    
+    <ul>
+      <li>Desenvolvimento de aplicativo móvel para cadastramento de agricultores com suporte a funcionalidades offline.</li><li>Implemented intelligent synchronization with the backend to optimize data retrieval during available connectivity.</li><li>Utilized Expo and Expo SQLite for mobile application development, implemented Fastify and MySQL for backend services, and integrated Drizzle ORM with TypeScript to enhance data management and application performance.</li>
+    </ul>
+  </div>
+        <div class="project-item">
+    <div class="project-name">Projetos Apple Developer Academy</div>
+    
+    
+    <ul>
+      <li>Publicou vários aplicativos durante um programa de 2 anos.</li><li>Developed features utilizing SwiftUI, CoreData, MapKit, CoreLocation, and Push Notifications.</li><li>Showcased projects on GitHub: github.com/juan-severiano</li>
+    </ul>
+  </div>
+  </section>
+</body>
+</html>

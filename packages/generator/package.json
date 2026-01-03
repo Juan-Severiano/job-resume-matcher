@@ -1,0 +1,22 @@
+{
+  "name": "@jrm/generator",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@jrm/core": "workspace:*",
+    "@jrm/ats": "workspace:*",
+    "@jrm/llm": "workspace:*"
+  },
+  "devDependencies": {
+    "@jrm/tsconfig": "workspace:*",
+    "typescript": "5.9.2"
+  }
+}
+

@@ -1,0 +1,30 @@
+{
+  "name": "@jrm/cli",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "jrm": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "check-types": "tsc --noEmit",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@jrm/core": "workspace:*",
+    "@jrm/ats": "workspace:*",
+    "@jrm/llm": "workspace:*",
+    "@jrm/generator": "workspace:*",
+    "@jrm/parser": "workspace:*",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@jrm/tsconfig": "workspace:*",
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "5.9.2"
+  }
+}
+
